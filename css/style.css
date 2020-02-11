@@ -1,0 +1,316 @@
+body {
+	font-family: 'Montserrat';
+}
+
+.navbar {
+	font-weight: 400;
+	background-color: #171717;
+	border-bottom: 1px solid #333333;
+}
+
+.nav-item a{
+	color: #FEFEFE !important;
+	margin-right: 25px;
+	font-weight: 200;
+}
+
+.nav-item.active a{
+	color: #F9B234 !important;
+	font-weight: 600;
+}
+
+.nav-link span{
+	color: #F9B234 !important;
+	font-weight: 600;
+}
+
+/* Carousel */
+
+.carousel {
+	background-color: #171717;
+	height: 528px;
+}
+
+.carousel h1{
+	color: #FFFFFF;
+	font-family: 'Lora';
+	font-weight: bold;
+}
+
+.carousel .btn{
+	background-color: #F9B234;
+}
+
+.carousel .row p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/*Akhir Carousel*/
+
+/*Feature + Designer*/
+
+.features .row h3, .designer h3, .similar-product h3, .your-cart h3, .checkout-modal-success h3{
+	font-family: 'Lora';
+	color: #182280 !important;
+	font-weight: bold;
+}
+
+.checkout-modal-success p {
+	color: #717171 !important;
+}
+
+.features .row p, .designer p {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #717171 !important;
+}
+
+.features .figure h5, .designer .figure h5{
+	margin-top: 10px;
+	text-align: center;
+	font-weight: 400;
+}
+
+.features .figure p, .designer .figure p{
+	text-align: center;
+	font-weight: 200;
+}
+
+.features .figure-img{
+	position: relative;
+
+}
+
+.features .figure-img a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 8px;
+	right: 0;
+	background-color: rgba(0,0,0,0.7);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.features .figure-img:hover a{
+	opacity: 1;
+}
+/*Akhir Feature*/
+
+/*Designer*/
+
+.designer .figure-img a {
+	position: relative;
+	border: 0px #182280 solid;
+	width: 145px;
+	height: 145px;
+	border-radius: 100%;
+	transition: border 0,1s;
+}
+
+.designer .figure-img img{
+	position: absolute;
+}
+
+.designer .figure-img{
+	position: relative;
+}
+
+#figure {
+	position: relative;
+	border: 1px #171717 solid;
+}
+
+.designer .figure-img:hover a{
+	border: 2px #182280 solid;
+	width: 145px;
+	height: 145px;
+}
+
+.designer .figure-img :hover img{
+	box-shadow: 0px 10px 10px  rgba(0,0,0,0.2);
+	border-radius:100px;
+}
+
+#verif {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+/*akhir designer*/
+
+/*footer*/
+
+/*akhir footer*/
+
+/*breadcrumb*/
+
+.breadcrumb {
+	margin-top: 85px;
+}
+
+/*akhir breadcrumb*/
+
+/*single produk*/
+
+
+.gambar-thumbnail-container {
+	box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+	width: 345px;
+	padding: 7px;
+	transform: translateY(-50px);
+	margin: auto;
+}
+
+.gambar-thumbnail-container a:hover {
+	text-decoration: none;
+}
+
+.single-product-deskripsi h5{
+	font-weight: bold;
+}
+
+.tombol-add{
+	margin: 30px 0;
+  	padding-bottom: 20px;
+ 	border-bottom: 1px solid #EAEAEF;
+}
+
+.tombol-add .btn {
+	display: block;
+ 	margin: 10px 0;
+}
+
+
+.designed-by h5{
+	color: #D4D4d4;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.designed-by a{
+	color: #D4D4d4;
+	border: 1px solid #D4D4d4;
+	border-radius: 100%;
+	height: 60px;
+	width: 60px;
+	position: relative;
+}
+
+.designed-by img{
+	height: 50px !important;
+	width: 50px !important;
+	position: absolute;
+
+}
+
+.designed-by .nama-designer {
+	padding: 5px 5px 5px 0;
+	margin-left: 0;
+
+	
+}
+
+.designed-by .nama-designer h5{
+
+	color: black;
+	font-size: 20px;
+}
+
+
+/*akhir single produk*/
+
+/*produk deskripsi*/
+
+.produk-deskripsi {
+	background-color: #f6f6f6;
+	height: 350px;
+}
+
+.produk-deskripsi a{
+	font-size: 18px;
+}
+
+.produk-deskripsi {
+	font-size: 200;
+}
+
+.tab-content {
+	background-color: white;
+	border: #dee2e6 solid 1px;
+	border-top: 0;
+	height: 350px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+
+}
+
+.tab-content p{
+	color: #6A3A3A;
+
+}
+
+.review-produk {
+	padding: 10px;
+	overflow: auto;
+	height: 310px;
+	overflow-x: hidden;
+}
+
+.review-produk h5{
+	font-weight: 600;
+	
+	margin-bottom: 0;
+	margin-top: 7px;
+}
+
+/*akhir produk deskripsi*/
+
+/*similar product*/
+
+.similar-product {
+	margin-top: 100px;
+}
+
+.similar-product p{
+	color: #B2B2B2;
+}
+
+/*cart*/
+
+.item .item-inti h5{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.item .item-inti p{
+	font-size: 17px;
+	font-weight: 200;
+}
+
+.checkout {
+	height: 420px;
+	background-color: #f8f8f8;
+}
+
+.checkout p {
+	color: #ababab;
+}
+
+.checkout .harga p {
+	font-size: 17px;
+}
+
+.checkout .deskrip h5 {
+	font-size: 16px;
+}
+
+.checkout .deskrip p {
+	font-size: 12px;
+}
+
+.checkout-detail {
+  background-color: #F6F7FB;
+  border: 1px solid #EAEAEA;
+  color: #171717;
+}
