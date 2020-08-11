@@ -370,9 +370,8 @@
     <script src="js/bootstrap.js" ></script>
     <script src="js/popper.min.js" ></script>
     <script>
-      $("#modal-home").on('click',"a[data-window='external']", function() {
-            window.open($(this).attr('href')); 
-            return false; 
+      $("#modal-home").on('click', function() {
+            window.location.href = ($(this).attr('href')); 
         });
     </script>
   
